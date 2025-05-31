@@ -7,7 +7,7 @@ const tokens = (n) => {
 
 describe('Escrow', () => {
     let buyer, seller, inspector, lender
-    let realEstate, escrow
+    let realEstate, escrow   
 
     beforeEach(async () => {
         // Setup accounts
