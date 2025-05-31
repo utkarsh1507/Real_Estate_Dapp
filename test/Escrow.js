@@ -8,7 +8,7 @@ const tokens = (n) => {
 describe('Escrow', () => {
     let buyer, seller, inspector, lender
     let realEstate, escrow   
-
+   
     beforeEach(async () => {
         // Setup accounts
         [buyer, seller, inspector, lender] = await ethers.getSigners()
