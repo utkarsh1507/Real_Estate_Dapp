@@ -1,31 +1,14 @@
-# Real Estate NFT DApp
+Real Estate NFT DApp
+A decentralized application (DApp) for real estate tokenization using NFTs.
+Built as a team project by Utkarsh Srivastava, Gaurav Pandey, and Amit Kumar.
 
-## Technology Stack & Tools
+🛠️ Technology Stack & Tools
+Solidity – Smart contract development and testing
 
-- Solidity (Writing Smart Contracts & Tests)
-- Javascript (React & Testing)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
+JavaScript – Frontend logic and testing
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/)
+Hardhat – Development framework
 
-## Setting Up
-### 1. Clone/Download the Repository
+Ethers.js – Blockchain interaction library
 
-### 2. Install Dependencies:
-`$ npm install`
-
-### 3. Run tests
-`$ npx hardhat test`
-
-### 4. Start Hardhat node
-`$ npx hardhat node`
-
-### 5. Run deployment script
-In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
-
-### 7. Start frontend
-`$ npm run start`
+React.js – Frontend UI framework
