@@ -11,6 +11,10 @@ const properties = [
         value: 20
       },
       {
+        trait_type: "Status",
+        value: "Purchased"
+      },
+      {
         trait_type: "Type",
         value: "College"
       },

@@ -16,7 +16,7 @@ const Team = () => {
     },
     {
       id: 3,
-      name: 'Amit Kumar Singh',
+      name: 'Amit Kumar',
       role: 'Backend Developer',
       description: 'Specialized in server-side architecture and blockchain integration for decentralized applications. Proficient in API development and database management.'
     }

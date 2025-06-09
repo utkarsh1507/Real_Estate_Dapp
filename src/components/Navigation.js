@@ -34,13 +34,13 @@ const Navigation = ({ account, setAccount, activeTab, setActiveTab }) => {
                 <li>
                     <a 
                         href="#" 
-                        className={activeTab === 'marketplace' ? 'active' : ''}
+                        className={activeTab === 'contact' ? 'active' : ''}
                         onClick={(e) => {
                             e.preventDefault();
-                            setActiveTab('properties'); // Currently same as properties
+                            setActiveTab('contact');
                         }}
                     >
-                        Marketplace
+                        Contact Us
                     </a>
                 </li>
                 <li>

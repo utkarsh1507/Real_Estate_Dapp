@@ -176,8 +176,7 @@ const Home = ({ home, provider, account, escrow, realEstate, togglePop }) => {
                             home.id,
                             userAddress, // buyer (ourselves for demo)
                             purchasePrice,
-                            escrowAmount,
-                            { gasLimit: 500000 }
+                            escrowAmount
                         );
                         await listTx.wait();
                         console.log('Property successfully listed in escrow');
@@ -192,8 +191,7 @@ const Home = ({ home, provider, account, escrow, realEstate, togglePop }) => {
             // STEP 1: Deposit earnest money
             console.log('Depositing earnest money...');
             let transaction = await escrow.connect(signer).depositEarnest(home.id, { 
-                value: escrowAmount,
-                gasLimit: 500000 
+                value: escrowAmount
             });
             await transaction.wait();
             console.log('Earnest money deposited successfully');
